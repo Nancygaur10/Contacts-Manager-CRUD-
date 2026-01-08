@@ -38,7 +38,7 @@ This project is developed as part of a **Web Developer CRUD Assignment**.
 ---
 
 ## 📂 Project Structure
-
+```bash
 contacts_manager/
 ├── manage.py
 ├── contacts_manager/
@@ -51,6 +51,7 @@ contacts_manager/
 
 Setup Instructions
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/contacts-manager.git
 cd contacts-manager
 
