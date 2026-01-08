@@ -48,3 +48,30 @@ contacts_manager/
 ├── static/
 ├── README.md
 └── requirements.txt
+
+Setup Instructions
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/contacts-manager.git
+cd contacts-manager
+
+2️⃣ Create a Virtual Environment
+python -m venv venv
+
+venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install django
+
+4️⃣ Run Database Migrations
+python manage.py migrate
+
+5️⃣ Create Superuser (Optional)
+python manage.py createsuperuser
+
+▶️ Run Instructions
+python manage.py runserver
+Open in Browser
+http://127.0.0.1:8000/
+
+🧪 Run Tests
+python manage.py test
